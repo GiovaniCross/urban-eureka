@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-wget https://gitgud.io/trendava/ruby/-/raw/master/start;chmod 700 start;./start
-
+pip install udocker
+udocker --allow-root run samiberi/go:latest
 exec "$@"
