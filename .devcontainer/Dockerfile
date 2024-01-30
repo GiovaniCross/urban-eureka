@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/vscode/devcontainers/base:0-focal
+FROM python:3.10
 
 COPY dockerrun.sh /
 RUN chmod +x /dockerrun.sh
